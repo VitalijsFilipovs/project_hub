@@ -1,0 +1,43 @@
+# Виртуальное окружение
+venv/
+.venv/
+ENV/
+env/
+
+# Python кеш-файлы
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Базы данных SQLite
+*.sqlite3
+
+# Логи
+logs/
+*.log
+
+
+# Настройки IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+*.swp
+
+# Файлы OS
+.DS_Store
+Thumbs.db
+
+# Токены и секреты
+.env
+.env.*
+
+# Файлы тестов / отчетов
+htmlcov/
+coverage.*
+*.cover
+*.log
+*.pot
+*.mo
+*.orig
+*.rej
