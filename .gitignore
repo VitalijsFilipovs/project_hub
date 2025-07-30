@@ -15,8 +15,8 @@ __pycache__/
 *.sqlite3
 
 # Логи
-logs/
-*.log
+logs/*
+!logs/.gitkeep
 
 
 # Настройки IDE (PyCharm, VSCode)
