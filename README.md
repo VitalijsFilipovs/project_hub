@@ -29,6 +29,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.CursorPagination',
     'PAGE_SIZE': 6,
 }
+
 🔹 Логирование:
 Сервер → консоль
 
@@ -45,25 +46,8 @@ SQL-запросы → logs/db_logs.log
 
 JSON-ответы
 
-📁 Структура проекта
-bash
-Копировать код
-project_hub/
-├── tasks/
-│   ├── models.py        # модель Category
-│   ├── views.py         # APIView
-│   ├── serializers.py   # DRF-сериализатор
-│   ├── urls.py          # маршруты
-├── project_hub/
-│   ├── settings.py      # конфигурация, включая логгинг и REST
-├── logs/
-│   ├── http_logs.log    # HTTP-запросы
-│   └── db_logs.log      # SQL-запросы
-├── db.sqlite3
-├── manage.py
 📦 Установка и запуск
-bash
-Копировать код
+
 git clone https://github.com/VitalijsFilipovs/project_hub.git
 cd project_hub
 python -m venv venv
@@ -78,4 +62,3 @@ GET /api/categories/
 
 👨‍💻 Автор
 Виталий Филипов
-GitHub профайл
